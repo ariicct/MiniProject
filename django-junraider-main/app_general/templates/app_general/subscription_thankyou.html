@@ -1,0 +1,15 @@
+{% extends 'app_general/components/base.html' %}
+
+{% block site_title %}ขอบคุณสำหรับการลงทะเบียน - {% endblock %}
+
+{% block content %}
+<section class="content-section content-section-single">
+  <div class="content-container content-container-narrow">
+    <h3 class="content-title">ขอบคุณสำหรับการลงทะเบียน</h3>
+    <p>เราต้องการให้คุณรู้ว่าเราพร้อมที่จะให้บริการคุณด้วยอาหารอร่อยและบรรยากาศที่น่าตื่นเต้นที่ร้านของเรา มาลิ้มลองอาหารและประสบการณ์ที่ออกแบบเพื่อความพึงพอใจของคุณ</p>
+    <p>
+      <a class="button button-primary" href="{% url 'home' %}">กลับหน้าแรก</a>
+    </p>
+  </div>
+</section>
+{% endblock %}
